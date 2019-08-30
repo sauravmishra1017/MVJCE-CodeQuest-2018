@@ -1,0 +1,25 @@
+Problem:
+
+Meet Tony Stark. He's a billionaire with genius level intellect. He's also CEO of Stark Industries. 
+Mr. Stark's company has just developed technology that allows one level of encrypting a string. But unfortunately, his ignorant developers forgot to create the corresponding decryption algorithm.
+Help Mr. Stark's company build the decryption algorithm in any programming language. Implement an algorithm to decrypt a cipher. Remember, you can have alphabets, numerals or symbols. (Hint: The output will be each character of the cipher text minus the offset).
+Fabricating the results will leave Stark's company vulnerable to threats from his arch nemesis, Thanos. So, do not fabricate the results.
+
+Input:
+Cipher text and offset value is fed as input by Stark's developers.
+
+Output:
+Decrypted text is displayed.
+
+Example:
+Input:
+a2db678 6
+
+Output:
+[,^\012
+
+Input:
+Xlersw 4
+
+Output:
+Thanos

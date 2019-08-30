@@ -1,0 +1,48 @@
+Problem:
+A small town named Townsville is famous for their cakes. The town has N bakers who deliver to M stores.
+The number of cakes each baker sends to each store is decided by the Town manager.
+Each baker is curious to find the difference between the number of cakes he delivers to the two stores where he sends the least number of cakes.
+Help each baker in Townsville find his answer.
+
+Input:
+The first line of input consists of N and M.
+This is followed by a NxM matrix representing the number of cakes Xij from each value of N to each value of M.
+
+Output: 
+Print the answer for each chef in a single line.
+
+Constraints:
+1<=N<=10^3
+2<=M<=10^3
+1<=Xij<=10^9
+
+Example: 
+
+Input:
+3 3
+6 9 3
+4 20 10
+8 8 12
+
+Output:
+3
+6
+0
+
+Input: 
+4 5
+1 5 4 2 12
+5 7 9 10 23
+4 2 3 8 3
+3 6 7 10 21
+
+Output: 
+1
+2
+1
+3
+
+
+
+
+
